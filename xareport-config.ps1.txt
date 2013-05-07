@@ -1,0 +1,9 @@
+# Example configuration script
+
+$zonenames = "Zone1","Zone2"			# Zone names
+$wgname = "Production"				# Worker group name to check for offline servers
+$smtpserver = "1.2.3.4"				# SMTP Server
+$mailfrom = "xenapp@benpiper.com"		# SMTP Mail From Address
+$mailto = "alerts@benpiper.com"			# SMTP Mail To Address
+$mailcc = "collector@benpiper.com"		# SMTP CC To Address
+$mailsubject = "XenApp Health Check"		# Subject
